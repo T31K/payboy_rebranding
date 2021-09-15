@@ -68,7 +68,7 @@
   background-repeat: no-repeat;
   background-size: 150px 150px;
   background-position: right 150px top 30%;
-  background-image: url(/assets/home/modules/payroll_rotated.svg);
+  background-image: url(../home/modules/payroll_rotated.svg);
 }
 
 #home_payroll #main #main_title h1 {
@@ -219,7 +219,7 @@
     background-repeat: no-repeat;
     background-size: 110px 110px;
     background-position: right 35px top 20%;
-    background-image: url(/assets/home/modules/payroll_rotated.svg);
+    background-image: url(../home/modules/payroll_rotated.svg);
   }
 
   #home_payroll #main #main_title h1 {
@@ -279,7 +279,7 @@
     background-repeat: no-repeat;
     background-size: 80px 80px;
     background-position: right 15px top 30%;
-    background-image: url(/assets/home/modules/payroll_rotated.svg);
+    background-image: url(../home/modules/payroll_rotated.svg);
   }
 
   #home_payroll #main #main_title h1 {

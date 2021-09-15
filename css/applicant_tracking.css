@@ -61,7 +61,7 @@
   background-repeat: no-repeat;
   background-size: 150px 150px;
   background-position: right 120px top 40%;
-  background-image: url(/assets/home/applicant_tracking/main.svg);
+  background-image: url(../home/applicant_tracking/main.svg);
 }
 
 #home_applicant_tracking #main #main_title h1 {
@@ -217,7 +217,7 @@
     background-repeat: no-repeat;
     background-size: 90px 90px;
     background-position: right 5px top 45%;
-    background-image: url(/assets/home/applicant_tracking/main.svg);
+    background-image: url(../home/applicant_tracking/main.svg);
   }
 
   #home_applicant_tracking #main #main_title h1 {
@@ -274,7 +274,7 @@
     background-repeat: no-repeat;
     background-size: 80px 80px;
     background-position: right 15px top 45%;
-    background-image: url(/assets/home/applicant_tracking/main.svg);
+    background-image: url(../home/applicant_tracking/main.svg);
   }
 
   #home_applicant_tracking #main #main_title h1 {

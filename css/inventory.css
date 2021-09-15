@@ -61,7 +61,7 @@
   background-repeat: no-repeat;
   background-size: 150px 150px;
   background-position: right 200px top 50%;
-  background-image: url(/assets/home/inventory/main.svg);
+  background-image: url(../home/inventory/main.svg);
 }
 
 #home_inventory #main #main_title h1 {
@@ -217,7 +217,7 @@
     background-repeat: no-repeat;
     background-size: 110px 110px;
     background-position: right 55px top 58%;
-    background-image: url(/assets/home/inventory/main.svg);
+    background-image: url(../home/inventory/main.svg);
   }
 
   #home_inventory #main #main_title h1 {
@@ -274,7 +274,7 @@
     background-repeat: no-repeat;
     background-size: 80px 80px;
     background-position: right 30px top 50%;
-    background-image: url(/assets/home/inventory/main.svg);
+    background-image: url(../home/inventory/main.svg);
   }
 
   #home_inventory #main #main_title h1 {

@@ -1,6 +1,6 @@
 $('body').scroll(function() {
   var scroll = $('body').scrollTop();
-  var height = $('section#landing_hero').height()
+  var height = $('section:first-of-type').height()
 
   if (scroll > height) {
     $('.log_in').addClass('shake')

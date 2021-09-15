@@ -61,7 +61,7 @@
   background-repeat: no-repeat;
   background-size: 150px 150px;
   background-position: right 230px top 38%;
-  background-image: url(/assets/home/appraisals/main.svg);
+  background-image: url(../home/appraisals/main.svg);
 }
 
 #home_appraisals #main #main_title h1 {
@@ -218,7 +218,7 @@
     background-repeat: no-repeat;
     background-size: 110px 110px;
     background-position: right 65px top 40%;
-    background-image: url(/assets/home/appraisals/main.svg);
+    background-image: url(../home/appraisals/main.svg);
   }
 
   #home_appraisals #main #main_title h1 {
@@ -275,7 +275,7 @@
     background-repeat: no-repeat;
     background-size: 80px 80px;
     background-position: right 35px top 42%;
-    background-image: url(/assets/home/appraisals/main.svg);
+    background-image: url(../home/appraisals/main.svg);
   }
 
   #home_appraisals #main #main_title h1 {
