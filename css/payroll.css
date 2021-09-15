@@ -1,0 +1,373 @@
+#home_payroll {
+  font-family: 'Poppins';
+}
+
+#home_payroll h1,
+#home_payroll h2,
+#home_payroll h3,
+#home_payroll h4,
+#home_payroll h6 {
+  font-family: 'Changa';
+  font-weight: 700;
+}
+
+#home_payroll p {
+  font-size: 17px;
+}
+
+#home_payroll a {
+  text-decoration: none;
+  font-size: 15px;
+  overflow: inherit;
+  top: 0;
+  color: #0048ff;
+}
+
+#home_payroll a:hover {
+  color: #231f20;
+}
+
+#home_payroll .fa.fa-angle-right {
+  color: grey;
+  font-size: 50px !important;
+}
+
+#home_payroll .fa.fa-angle-left {
+  color: grey;
+  font-size: 50px !important;
+}
+
+#home_payroll a {
+  text-decoration: none;
+  font-size: 15px;
+  overflow: inherit;
+  top: 0;
+  color: #0048ff;
+}
+
+#home_payroll a:hover {
+  color: #231f20;
+}
+
+#home_payroll #main {
+  background: #0048ff;
+}
+
+#home_payroll #main #video {
+  height: 100%;
+  background: black;
+  color: #fff;
+}
+
+#home_payroll #main #main_title {
+  margin-top: 90px;
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+  background: #0048ff;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: 150px 150px;
+  background-position: right 150px top 30%;
+  background-image: url(/assets/home/modules/payroll_rotated.svg);
+}
+
+#home_payroll #main #main_title h1 {
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 50px;
+  font-size: 60px;
+  margin-bottom: 0;
+}
+
+#home_payroll #main #main_title h5 {
+  font-size: 20px;
+}
+
+#home_payroll #in_a_nutshell {
+  padding-top: 65px;
+}
+
+#home_payroll #in_a_nutshell h2 {
+  text-align: center;
+  color: #0048ff;
+  text-transform: uppercase;
+}
+
+#home_payroll #in_a_nutshell h3 {
+  text-transform: uppercase;
+  color: #0048ff;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+#home_payroll #in_a_nutshell div.col-lg-3 {
+  white-space: nowrap;
+}
+
+#home_payroll #in_a_nutshell .tools {
+  width: 100px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+#home_payroll #in_a_nutshell h3 {
+  font-family: 'Poppins', serif;
+  text-align: center;
+  margin-top: 15px;
+}
+
+#home_payroll #description {
+  padding-top: 30px;
+  padding-bottom: 70px;
+  background: #f1f2f2;
+}
+
+#home_payroll #description .text {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+#home_payroll #description .text h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 650;
+  color: #0048ff;
+}
+
+#home_payroll #description .text p {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#home_payroll #testimonials {
+  padding-top: 30px;
+}
+
+#home_payroll #testimonials #clients_mobile {
+  display: none;
+}
+
+#home_payroll #testimonials #clients {
+  border-bottom: 0.5px solid #231f20;
+  padding-bottom: 20px;
+}
+
+#home_payroll #testimonials #clients p {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#home_payroll #testimonials #clients img {
+  width: 40%;
+  margin: 0 auto;
+  display: block;
+}
+
+#home_payroll #testimonials #clients h4 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#home_payroll #testimonials #stats_description p {
+  text-align: left;
+}
+
+#home_payroll #testimonials #stats_description .stats_logo {
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+#home_payroll #testimonials #stats_ceo {
+  font-weight: 800;
+  margin-bottom: 45px;
+}
+
+#home_payroll #testimonials #stats_stats h1 {
+  text-align: center;
+}
+
+#home_payroll #testimonials #stats_stats p {
+  text-align: center;
+}
+
+#home_payroll #ending {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#home_payroll #ending h1 {
+  text-transform: uppercase;
+  font-family: 'Changa';
+  text-align: center;
+  color: #666;
+  font-weight: 600;
+  letter-spacing: 0px;
+}
+
+#home_payroll .w-80 {
+  width: 85%;
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+  #home_payroll #main #main_title {
+    margin-top: 90px;
+    background-repeat: no-repeat;
+    background-size: 110px 110px;
+    background-position: right 35px top 20%;
+    background-image: url(/assets/home/modules/payroll_rotated.svg);
+  }
+
+  #home_payroll #main #main_title h1 {
+    line-height: 43px;
+    font-size: 45px;
+  }
+
+  #home_payroll #main #main_title p {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  #home_payroll #main div#main_video {
+    padding-left: 0;
+  }
+
+  #home_payroll #in_a_nutshell h3 {
+    font-size: 15px;
+  }
+
+  #home_payroll #description p {
+    font-size: 15px;
+  }
+
+  #home_payroll #testimonials p {
+    font-size: 15px;
+  }
+
+  #home_payroll #ending {
+    padding: 30px 0;
+  }
+}
+
+@media (max-width: 576px) {
+  nav#bottom {
+    display: none;
+  }
+
+  #home_payroll .fa.fa-angle-left,
+  #home_payroll .fa.fa-angle-right {
+    color: grey;
+    font-size: 20px !important;
+  }
+
+  #home_payroll .owl-prev {
+    margin-left: 0;
+  }
+
+  #home_payroll .owl-next {
+    right: 0;
+  }
+
+  #home_payroll #main #main_title {
+    margin-top: 90px;
+    text-align: center;
+    padding: 10% !important;
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
+    background-position: right 15px top 30%;
+    background-image: url(/assets/home/modules/payroll_rotated.svg);
+  }
+
+  #home_payroll #main #main_title h1 {
+    font-size: 45px;
+    line-height: 35px;
+  }
+
+  #home_payroll #main #main_title p:nth-last-child(1) {
+    margin-top: 15px;
+  }
+
+  #home_payroll #main #main_title h1 {
+    font-size: 40px;
+  }
+
+  #home_payroll #main #main_title p {
+    width: 90%;
+    font-size: 15px;
+  }
+
+  #home_payroll #main #main_title .w-80 {
+    margin: 0 auto;
+  }
+
+  #home_payroll #main div#main_video {
+    height: 40vh;
+    padding-left: 0;
+  }
+
+  #home_payroll #in_a_nutshell h2 {
+    margin-bottom: 25px;
+    font-size: 30px;
+  }
+
+  #home_payroll #in_a_nutshell h3 {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+
+  #home_payroll #description p {
+    font-size: 15px;
+  }
+
+  #home_payroll #description a {
+    text-decoration: none;
+    font-size: 15px;
+    overflow: inherit;
+    top: 0;
+    color: #0048ff;
+  }
+
+  #home_payroll #description a:hover {
+    color: #231f20;
+  }
+
+  #home_payroll #testimonials p {
+    font-size: 15px;
+  }
+
+  #home_payroll #clients {
+    display: none;
+  }
+
+  #home_payroll .stats_logo {
+    margin: 0 auto;
+  }
+
+  #home_payroll #clients_mobile {
+    display: block !important;
+    padding-bottom: 30px;
+    border-bottom: 0.5px solid #696969;
+  }
+
+  #home_payroll #clients_mobile p {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  #home_payroll #clients_mobile h4 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #home_payroll #clients_mobile img {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+  }
+}
