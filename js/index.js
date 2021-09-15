@@ -27,7 +27,7 @@ $('.owl-carousel').owlCarousel({
   autoWidth:false,
   dots: false,
   loop: true,
-  navText : ['<i class="fa fa-angle-left" style= aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+  navText : false,
   responsive:{
       0:{
           items:1,

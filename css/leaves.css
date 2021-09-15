@@ -1,0 +1,357 @@
+#home_leaves {
+  font-family: 'Poppins';
+}
+
+#home_leaves h1,
+#home_leaves h2,
+#home_leaves h3,
+#home_leaves h4,
+#home_leaves h6 {
+  font-family: 'Changa';
+  font-weight: 700;
+}
+
+#home_leaves p {
+  font-size: 17px;
+}
+
+#home_leaves a {
+  text-decoration: none;
+  font-size: 15px;
+  overflow: inherit;
+  top: 0;
+  color: #0048ff;
+}
+
+#home_leaves a:hover {
+  color: #231f20;
+}
+
+#home_leaves .fa.fa-angle-right {
+  color: grey;
+  font-size: 50px !important;
+}
+
+#home_leaves .fa.fa-angle-left {
+  color: grey;
+  font-size: 50px !important;
+}
+
+#home_leaves .slick-prev:before,
+#home_leaves .slick-next:before {
+  color: #666;
+}
+
+#home_leaves #main {
+  background: #ffaa29;
+}
+
+#home_leaves #main #video {
+  height: 100%;
+  background: black;
+  color: #fff;
+}
+
+#home_leaves #main #main_title {
+  margin-top: 90px;
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+  background: #ffaa29;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: 150px 150px;
+  background-position: right 200px top 35%;
+  background-image: url('../home/leaves/leaves_sun.svg');
+}
+
+#home_leaves #main #main_title h1 {
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 50px;
+  font-size: 50px;
+}
+
+#home_leaves #main #main_title h5 {
+  font-size: 20px;
+}
+
+#home_leaves #in_a_nutshell {
+  padding-top: 65px;
+}
+
+#home_leaves #in_a_nutshell h2 {
+  text-align: center;
+  color: #ffaa29;
+  text-transform: uppercase;
+}
+
+#home_leaves #in_a_nutshell h3 {
+  text-transform: uppercase;
+  color: #ffaa29;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+#home_leaves #in_a_nutshell .auto-container {
+  width: 100%;
+}
+
+#home_leaves #in_a_nutshell div.col-lg-3 {
+  white-space: nowrap;
+}
+
+#home_leaves #in_a_nutshell .tools {
+  width: 100px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+#home_leaves #in_a_nutshell h3 {
+  font-family: 'Poppins', serif;
+  text-align: center;
+  margin-top: 15px;
+}
+
+#home_leaves #description {
+  padding-top: 30px;
+  padding-bottom: 70px;
+  background: #f1f2f2;
+}
+
+#home_leaves #description .text {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+#home_leaves #description .text h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 650;
+  color: #ffaa29;
+}
+
+#home_leaves #description .text p {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#home_leaves #testimonials {
+  padding-top: 30px;
+}
+
+#home_leaves #testimonials #clients_mobile {
+  display: none;
+}
+
+#home_leaves #testimonials #clients {
+  border-bottom: 0.5px solid #231f20;
+  padding-bottom: 20px;
+}
+
+#home_leaves #testimonials #clients p {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#home_leaves #testimonials #clients img {
+  width: 40%;
+  margin: 0 auto;
+  display: block;
+}
+
+#home_leaves #testimonials #clients h4 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#home_leaves #testimonials #stats_description p {
+  text-align: left;
+}
+
+#home_leaves #testimonials #stats_description .stats_logo {
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+#home_leaves #testimonials #stats_ceo {
+  font-weight: 800;
+  margin-bottom: 45px;
+}
+
+#home_leaves #testimonials #stats_stats h1 {
+  text-align: center;
+}
+
+#home_leaves #testimonials #stats_stats p {
+  text-align: center;
+}
+
+#home_leaves #ending {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#home_leaves #ending h1 {
+  text-transform: uppercase;
+  font-family: 'Changa';
+  text-align: center;
+  color: #666;
+  font-weight: 700;
+  letter-spacing: 0px;
+}
+
+#home_leaves .w-80 {
+  width: 85%;
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+  #home_leaves #main #main_title {
+    margin-top: 90px;
+    background-repeat: no-repeat;
+    background-size: 110px 110px;
+    background-position: right 45px top 30%;
+    background-image: url('../home/leaves/leaves_sun.svg');
+  }
+
+  #home_leaves #main #main_title h1 {
+    line-height: 43px;
+    font-size: 45px;
+  }
+
+  #home_leaves #main #main_title p {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  #home_leaves #main div#main_video {
+    padding-left: 0;
+  }
+
+  #home_leaves #in_a_nutshell h3 {
+    font-size: 15px;
+  }
+
+  #home_leaves #description p {
+    font-size: 15px;
+  }
+
+  #home_leaves #testimonials p {
+    font-size: 15px;
+  }
+
+  #home_leaves #ending {
+    padding: 30px 0;
+  }
+}
+
+@media (max-width: 576px) {
+  nav#bottom {
+    display: none;
+  }
+
+  #home_leaves .fa.fa-angle-left,
+  #home_leaves .fa.fa-angle-right {
+    color: grey;
+    font-size: 20px !important;
+  }
+
+  #home_leaves .owl-prev {
+    margin-left: 0;
+  }
+
+  #home_leaves .owl-next {
+    right: 0;
+  }
+
+  #home_leaves #main #main_title {
+    margin-top: 90px;
+    text-align: center;
+    padding: 10% !important;
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
+    background-position: right 25px top 30%;
+    background-image: url('../home/leaves/leaves_sun.svg');
+  }
+
+  #home_leaves #main #main_title h1 {
+    font-size: 45px;
+    line-height: 35px;
+  }
+
+  #home_leaves #main #main_title p:nth-last-child(1) {
+    margin-top: 15px;
+  }
+
+  #home_leaves #main #main_title h1 {
+    font-size: 40px;
+  }
+
+  #home_leaves #main #main_title p {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  #home_leaves #main #main_title .w-80 {
+    margin: 0 auto;
+  }
+
+  #home_leaves #main div#main_video {
+    height: 40vh;
+    padding-left: 0;
+  }
+
+  #home_leaves #in_a_nutshell h2 {
+    margin-bottom: 25px;
+    font-size: 30px;
+  }
+
+  #home_leaves #in_a_nutshell h3 {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+
+  #home_leaves #description p {
+    font-size: 15px;
+  }
+
+  #home_leaves #testimonials p {
+    font-size: 15px;
+  }
+
+  #home_leaves #clients {
+    display: none;
+  }
+
+  #home_leaves .stats_logo {
+    margin: 0 auto;
+  }
+
+  #home_leaves #clients_mobile {
+    display: block !important;
+    padding-bottom: 30px;
+    border-bottom: 0.5px solid #696969;
+  }
+
+  #home_leaves #clients_mobile p {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  #home_leaves #clients_mobile h4 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #home_leaves #clients_mobile img {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+  }
+}
