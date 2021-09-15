@@ -1,0 +1,357 @@
+#home_appraisals {
+  font-family: 'Poppins';
+}
+
+#home_appraisals h1,
+#home_appraisals h2,
+#home_appraisals h3,
+#home_appraisals h4,
+#home_appraisals h6 {
+  font-family: 'Changa';
+  font-weight: 700;
+}
+
+#home_appraisals p {
+  font-size: 17px;
+}
+
+#home_appraisals a {
+  text-decoration: none;
+  font-size: 15px;
+  overflow: inherit;
+  top: 0;
+  color: #0048ff;
+}
+
+#home_appraisals a:hover {
+  color: #231f20;
+}
+
+#home_appraisals .fa.fa-angle-right {
+  color: grey;
+  font-size: 50px !important;
+}
+
+#home_appraisals .fa.fa-angle-left {
+  color: grey;
+  font-size: 50px !important;
+}
+
+#home_appraisals .slick-prev:before,
+#home_appraisals .slick-next:before {
+  color: #666;
+}
+
+#home_appraisals #main {
+  background: #1ec8ff;
+}
+
+#home_appraisals #main #video {
+  height: 100%;
+  background: black;
+  color: #fff;
+}
+
+#home_appraisals #main #main_title {
+  margin-top: 90px;
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+  background: #1ec8ff;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: 150px 150px;
+  background-position: right 230px top 38%;
+  background-image: url(/assets/home/appraisals/main.svg);
+}
+
+#home_appraisals #main #main_title h1 {
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 50px;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+#home_appraisals #main #main_title h5 {
+  font-size: 20px;
+  letter-spacing: 0;
+}
+
+#home_appraisals #in_a_nutshell {
+  padding-top: 65px;
+}
+
+#home_appraisals #in_a_nutshell h2 {
+  text-align: center;
+  color: #1ec8ff;
+  text-transform: uppercase;
+}
+
+#home_appraisals #in_a_nutshell h3 {
+  text-transform: uppercase;
+  color: #1ec8ff;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+#home_appraisals #in_a_nutshell .auto-container {
+  width: 100%;
+}
+
+#home_appraisals #in_a_nutshell div.col-lg-3 {
+  padding: 0;
+  white-space: nowrap;
+}
+
+#home_appraisals #in_a_nutshell .tools {
+  width: 100px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+#home_appraisals #in_a_nutshell h3 {
+  font-family: 'Poppins', serif;
+  text-align: center;
+  margin-top: 15px;
+}
+
+#home_appraisals #description {
+  padding-top: 30px;
+  padding-bottom: 70px;
+  background: #f1f2f2;
+}
+
+#home_appraisals #description .text {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+#home_appraisals #description .text h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 650;
+  color: #1ec8ff;
+}
+
+#home_appraisals #description .text p {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#home_appraisals #testimonials {
+  padding-top: 30px;
+}
+
+#home_appraisals #testimonials #clients_mobile {
+  display: none;
+}
+
+#home_appraisals #testimonials #clients {
+  border-bottom: 0.5px solid #231f20;
+  padding-bottom: 20px;
+}
+
+#home_appraisals #testimonials #clients p {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#home_appraisals #testimonials #clients img {
+  width: 40%;
+  margin: 0 auto;
+  display: block;
+}
+
+#home_appraisals #testimonials #clients h4 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#home_appraisals #testimonials #stats_description p {
+  text-align: left;
+}
+
+#home_appraisals #testimonials #stats_description .stats_logo {
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+#home_appraisals #testimonials #stats_ceo {
+  font-weight: 800;
+  margin-bottom: 45px;
+}
+
+#home_appraisals #testimonials #stats_stats h1 {
+  text-align: center;
+}
+
+#home_appraisals #testimonials #stats_stats p {
+  text-align: center;
+}
+
+#home_appraisals #ending {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#home_appraisals #ending h1 {
+  text-transform: uppercase;
+  font-family: 'Changa';
+  text-align: center;
+  color: #666;
+  font-weight: 700;
+  letter-spacing: 0px;
+}
+
+#home_appraisals .w-80 {
+  width: 85%;
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+  #home_appraisals #main #main_title {
+    margin-top: 90px;
+    background-repeat: no-repeat;
+    background-size: 110px 110px;
+    background-position: right 65px top 40%;
+    background-image: url(/assets/home/appraisals/main.svg);
+  }
+
+  #home_appraisals #main #main_title h1 {
+    line-height: 43px;
+    font-size: 45px;
+  }
+
+  #home_appraisals #main #main_title p {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  #home_appraisals #main div#main_video {
+    padding-left: 0;
+  }
+
+  #home_appraisals #in_a_nutshell h3 {
+    font-size: 15px;
+  }
+
+  #home_appraisals #description p {
+    font-size: 15px;
+  }
+
+  #home_appraisals #testimonials p {
+    font-size: 15px;
+  }
+
+  #home_appraisals #ending {
+    padding: 30px 0;
+  }
+}
+
+@media (max-width: 576px) {
+
+  #home_appraisals .fa.fa-angle-left,
+  #home_appraisals .fa.fa-angle-right {
+    color: grey;
+    font-size: 20px !important;
+  }
+
+  #home_appraisals .owl-prev {
+    margin-left: 0;
+  }
+
+  #home_appraisals .owl-next {
+    right: 0;
+  }
+
+  #home_appraisals #main #main_title {
+    margin-top: 90px;
+    text-align: center;
+    padding: 10% !important;
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
+    background-position: right 35px top 42%;
+    background-image: url(/assets/home/appraisals/main.svg);
+  }
+
+  #home_appraisals #main #main_title h1 {
+    font-size: 45px;
+    line-height: 35px;
+  }
+
+  #home_appraisals #main #main_title p:nth-last-child(1) {
+    margin-top: 15px;
+  }
+
+  #home_appraisals #main #main_title h1 {
+    font-size: 40px;
+  }
+
+  #home_appraisals #main #main_title p {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  #home_appraisals #main #main_title .w-80 {
+    margin: 0 auto;
+  }
+
+  #home_appraisals #main div#main_video {
+    height: 40vh;
+    padding-left: 0;
+  }
+
+  #home_appraisals #in_a_nutshell h2 {
+    margin-bottom: 25px;
+    font-size: 30px;
+  }
+
+  #home_appraisals #in_a_nutshell h3 {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+
+  #home_appraisals #description p {
+    font-size: 15px;
+  }
+
+  #home_appraisals #testimonials p {
+    font-size: 15px;
+  }
+
+  #home_appraisals #clients {
+    display: none;
+  }
+
+  #home_appraisals .stats_logo {
+    margin: 0 auto;
+  }
+
+  #home_appraisals #clients_mobile {
+    display: block !important;
+    padding-bottom: 30px;
+    border-bottom: 0.5px solid #696969;
+  }
+
+  #home_appraisals #clients_mobile p {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  #home_appraisals #clients_mobile h4 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #home_appraisals #clients_mobile img {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+  }
+}
