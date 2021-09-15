@@ -11,8 +11,77 @@
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/button.css">
 </head>
 <body>
+  <div id="nav">
+  <div id="nav_top">
+    <div class="nav-logo">
+      <a href="/"><img src='home/logo.svg' class='nav_logo'></a>
+    </div>
+    <div class="nav-content d-none d-lg-block ">
+      <a href="/features" id="solutions">Solutions</a>
+      <a href="/resources">Resources</a>
+      <a href="" ref="2">About</a>
+      <a href="/news">News</a>
+      <a href="/contactus">Contact</a>
+  </div>
+    <div class="nav-controls">
+      <div id="hamburger" class="hamburglar is-open d-lg-none">
+        <div id="top"></div>
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px"
+            height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+          <path id="circle" fill="none" stroke-width="4" stroke-miterlimit="10" d="M16,32h32c0,0,11.723-0.306,10.75-11
+                                                                                  c-0.25-2.75-1.644-4.971-2.869-7.151C50.728,7.08,42.767,2.569,33.733,2.054C33.159,2.033,32.599,2,32,2C15.432,2,2,15.432,2,32
+                                                                                  c0,16.566,13.432,30,30,30c16.566,0,30-13.434,30-30C62,15.5,48.5,2,32,2S1.875,15.5,1.875,32"/>
+
+        </svg>
+        <div id="bottom"></div>
+      </div>
+      <a href="/login" class="btn btn-blue d-none d-lg-block d-xl-block text-white log_in" id="log_in">LOG IN</a>
+    </div>
+  </div>
+   <div id="nav_bottom">
+   <div class="nav-content" ref="0">
+      <a href="/features/payroll">Payroll <br> Processing</a>
+      <a href="/features/leaves" >Leaves <br> Management</a>
+      <a href="/features/claims">Claims <br> Management</a>
+      <a href="/features/attendance">Time <br> Attendance</a>
+      <a href="/features/scheduling">Shift <br>Scheduling</a>
+      <a href="/features/appraisals">Appraisal <br> System</a>
+      <a href="/features/project_costing">Project <br> Costing</a>
+      <a href="/features/applicant_tracking">Applicant <br> Tracking</a>
+      <a href="/features/inventory">Inventory <br> Management</a>
+      <a href="/features/learning_dev">Learning <br> & Dev</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="overlay" id="overlay">
+    <div>
+      <a href="/" ><img src='home/logo_white.svg' class="payboy_white_logo"></a>
+    </div>
+
+    <div class="text">
+      <a href="#">Solutions</a>
+      <a href="#">Resources</a>
+      <a href="#">About</a>
+      <a href="#">News</a>
+      <a href="#">Contact</a>
+      <a href="#">Pricing</a>
+      <a href="#">Log In</a>
+    </div>
+
+    <div class="fa">
+      <a href="#" id="ig" href="https://www.instagram.com/payboyhr/?hl=en" target="_blank"> <i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.facebook.com/payboyHR/" target="_blank"> <i class="fab fa-facebook"></i></a>
+      <a href="#" href="https://www.youtube.com/channel/UCiqbzw7krkS7QuOQdhnLlgw"> <i class="fab fa-youtube"></i></a>
+    </div>
+
+</div>
   <div id="home_landing">
     <section id="landing_hero">
         <div class="title_top d-none d-sm-none d-md-block">
@@ -148,7 +217,7 @@
 
     <section id="testimonials">
       <div class="container">
-        <h1 id="thank_you">Thank you for believing in us <img src='home/thank_you.svg', :class=>"thank_you" ></h1>
+        <h1 id="thank_you">Thank you for believing in us <img src='home/thank_you.svg'class="thank_you" ></h1>
         <div class="categories">
           <span class="active">Featured</span>
           <span class="">F&B</span>
@@ -171,10 +240,10 @@
           <div>
             <div class="row" id="stats_description">
               <div class="col-lg-6 col-md-6">
-                <img src='home/payroll/placeholder_sq.png', :class=>"stats_img">
+                <img src='home/payroll/placeholder_sq.png'class="stats_img">
               </div>
               <div class="col-lg-6 col-md-6">
-                <img src='home/secret_lab.svg', :class=>"stats_logo" >
+                <img src='home/secret_lab.svg'class="stats_logo" >
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis urna id consequat tincidunt. Curabitur quis justo placerat, imperdiet ante quis, dictum metus. Mauris posuere velit a elit hendrerit lobortis. Mauris blandit est feugiat condimentum bibendum. Donec pharetra, nibh nec ornare lobortis, urna dui mollis mi, eu vestibulum enim ante ut augue. </p>
                 <p id="stats_ceo">Lorem Ipsum, CEO</p>
                 <div class="row" id="stats_stats">
@@ -193,7 +262,7 @@
           <div>
             <div class="row" id="stats_description">
               <div class="col-lg-6 col-md-6">
-                <img src='home/secret_lab.svg', :class=>"stats_logo" >
+                <img src='home/secret_lab.svg'class="stats_logo" >
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis urna id consequat tincidunt. Curabitur quis justo placerat, imperdiet ante quis, dictum metus. Mauris posuere velit a elit hendrerit lobortis. Mauris blandit est feugiat condimentum bibendum. Donec pharetra, nibh nec ornare lobortis, urna dui mollis mi, eu vestibulum enim ante ut augue. </p>
                 <p id="stats_ceo">Lorem Ipsum, CEO</p>
                 <div class="row" id="stats_stats">
@@ -208,14 +277,14 @@
                 </div>
               </div>
               <div class="col-lg-6 col-md-6">
-                <img src='home/payroll/placeholder_sq.png', :class=>"stats_img">
+                <img src='home/payroll/placeholder_sq.png'class="stats_img">
               </div>
             </div>
           </div>
           <div>
             <div class="row" id="stats_description">
               <div class="col-lg-6 col-md-6">
-                <img src='home/secret_lab.svg', :class=>"stats_logo" >
+                <img src='home/secret_lab.svg'class="stats_logo" >
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis urna id consequat tincidunt. Curabitur quis justo placerat, imperdiet ante quis, dictum metus. Mauris posuere velit a elit hendrerit lobortis. Mauris blandit est feugiat condimentum bibendum. Donec pharetra, nibh nec ornare lobortis, urna dui mollis mi, eu vestibulum enim ante ut augue. </p>
                 <p id="stats_ceo">Lorem Ipsum, CEO</p>
                 <div class="row" id="stats_stats">
@@ -230,7 +299,7 @@
                 </div>
               </div>
               <div class="col-lg-6 col-md-6">
-                <img src='home/payroll/placeholder_sq.png', :class=>"stats_img">
+                <img src='home/payroll/placeholder_sq.png'class="stats_img">
               </div>
             </div>
           </div>
@@ -242,7 +311,7 @@
           <div>
             <div class="row" id="stats_description">
               <div class="col-lg-6 col-md-6">
-                <img src='home/secret_lab.svg', :class=>"stats_logo" >
+                <img src='home/secret_lab.svg'class="stats_logo" >
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis urna id consequat tincidunt. Curabitur quis justo placerat, imperdiet ante quis, dictum metus. Mauris posuere velit a elit hendrerit lobortis. Mauris blandit est feugiat condimentum bibendum. Donec pharetra, nibh nec ornare lobortis, urna dui mollis mi, eu vestibulum enim ante ut augue. </p>
                 <p id="stats_ceo">Lorem Ipsum, CEO</p>
                 <div class="row" id="stats_stats">
@@ -257,14 +326,14 @@
                 </div>
               </div>
               <div class="col-lg-6 col-md-6">
-                <img src='home/payroll/placeholder_sq.png', :class=>"stats_img">
+                <img src='home/payroll/placeholder_sq.png'class="stats_img">
               </div>
             </div>
           </div>
           <div>
             <div class="row" id="stats_description">
               <div class="col-lg-6 col-md-6">
-                <img src='home/secret_lab.svg', :class=>"stats_logo" >
+                <img src='home/secret_lab.svg'class="stats_logo" >
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis urna id consequat tincidunt. Curabitur quis justo placerat, imperdiet ante quis, dictum metus. Mauris posuere velit a elit hendrerit lobortis. Mauris blandit est feugiat condimentum bibendum. Donec pharetra, nibh nec ornare lobortis, urna dui mollis mi, eu vestibulum enim ante ut augue. </p>
                 <p id="stats_ceo">Lorem Ipsum, CEO</p>
                 <div class="row" id="stats_stats">
@@ -279,14 +348,14 @@
                 </div>
               </div>
               <div class="col-lg-6 col-md-6">
-                <img src='home/payroll/placeholder_sq.png', :class=>"stats_img">
+                <img src='home/payroll/placeholder_sq.png'class="stats_img">
               </div>
             </div>
           </div>
           <div>
             <div class="row" id="stats_description">
               <div class="col-lg-6 col-md-6">
-                <img src='home/secret_lab.svg', :class=>"stats_logo" >
+                <img src='home/secret_lab.svg'class="stats_logo" >
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis urna id consequat tincidunt. Curabitur quis justo placerat, imperdiet ante quis, dictum metus. Mauris posuere velit a elit hendrerit lobortis. Mauris blandit est feugiat condimentum bibendum. Donec pharetra, nibh nec ornare lobortis, urna dui mollis mi, eu vestibulum enim ante ut augue. </p>
                 <p id="stats_ceo">Lorem Ipsum, CEO</p>
                 <div class="row" id="stats_stats">
@@ -301,7 +370,7 @@
                 </div>
               </div>
               <div class="col-lg-6 col-md-6">
-                <img src='home/payroll/placeholder_sq.png', :class=>"stats_img">
+                <img src='home/payroll/placeholder_sq.png'class="stats_img">
               </div>
             </div>
           </div>
@@ -317,19 +386,19 @@
         <br>
         <div class="row mb-5">
           <div class="col-lg-3 col-md-3 col-6">
-            <a href="https://t.me/payboyhr"><img src='home/home/tools/telegram.svg', :class=>'tools' ></a>
+            <a href="https://t.me/payboyhr"><img src='home/home/tools/telegram.svg' class='tools' ></a>
             <h3>Telegram</h3>
           </div>
           <div class="col-lg-3 col-md-3 col-6">
-            <a href="/jss"><img src='home/home/tools/calculator.svg', :class=>'tools', :style=>'transform: scale(0.9);' ></a>
+            <a href="/jss"><img src='home/home/tools/calculator.svg' class='tools' style='transform: scale(0.9);' ></a>
             <h3> Calculator</h3>
           </div>
           <div class="col-lg-3 col-md-3 col-6">
-            <a href="https://support.payboy.biz"><img src='home/home/tools/support.svg', :class=>'tools' ></a>
+            <a href="https://support.payboy.biz"><img src='home/home/tools/support.svg' class='tools' ></a>
             <h3>Support</h3>
           </div>
           <div class="col-lg-3 col-md-3 col-6">
-            <a href="https://support.payboy.biz/en/articles/4086947-faq-on-psg-grant"><img src='home/home/tools/faq.svg', :class=>'tools' ></a>
+            <a href="https://support.payboy.biz/en/articles/4086947-faq-on-psg-grant"><img src='home/home/tools/faq.svg' class='tools' ></a>
             <h3>FAQs</h3>
           </div>
 
@@ -357,68 +426,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-<script >
-window.onerror = function(error) {
-  if (error.includes('slick')) {
-    window.location.reload()
-  }
-}
-
-$('section#testimonials div.categories span').click(function() {
-  for (let i = 1; i < 5; i++) {
-    $(`section#testimonials div.categories span:nth-child(${i})`).removeClass()
-  }
-  $(this).addClass('active')
-})
-
-$('body').scroll(function() {
-  var scroll = $('body').scrollTop();
-  var height = $('section#landing_hero').height()
-
-  if (scroll > height) {
-    $('.log_in').addClass('shake')
-    $('#log_in').text('GET STARTED')
-    $('#log_in').prop('href', '/register')
-  } else {
-    if ($('.log_in').hasClass('shake')) {
-      $('.log_in').removeClass('shake')
-      $('#log_in').text('LOG IN')
-      $('#log_in').prop('href', '/login')
-    }
-  }
-})
-
-$('.news-slider').slick({
-  autoWidth:false,
-  dots: false,
-  arrows: true,
-  items: 1,
-})
-
-$('.owl-carousel').owlCarousel({
-  // please dont change this class name lol
-  autoWidth:false,
-  dots: false,
-  loop: true,
-  navText : ['<i class="fa fa-angle-left" style= aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
-  responsive:{
-      0:{
-          items:1,
-          nav:true,
-          loop: true,
-
-      },
-      600:{
-          items:1,
-          nav:false,
-          loop: true,
-      },
-      1024:{
-          items:1,
-          nav:true,
-          loop:false,
-          loop: true,
-      }
-  }
-})
-</script>
+<script src="js/nav.js"></script>
+<script src="js/index.js"></script>

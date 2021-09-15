@@ -13,7 +13,7 @@
 
 #home_landing section#landing_hero {
   background: #f1f2f2;
-  background-image: image-url('home/banner.svg');
+  background-image: url('../home/banner.svg');
   background-origin: content-box;
   background-repeat: no-repeat;
   background-position: center;
@@ -84,7 +84,7 @@
 
 #home_landing section#module_container div.only {
   background: #ee3435;
-  background-image: image-url('home/modules/bulb.svg');
+  background-image: url('../home/modules/bulb.svg');
   background-repeat: no-repeat;
   background-size: 150px 150px;
   background-position: right 5px top 30px;
@@ -131,7 +131,7 @@
   background-repeat: no-repeat;
   background-size: 80px 80px;
   background-position: right 25px top 50%;
-  background-image: image-url('home/modules/payroll.svg');
+  background-image: url('../home/modules/payroll.svg');
 }
 
 #home_landing section#module_container #solutions_leaves {
@@ -139,7 +139,7 @@
   background-repeat: no-repeat;
   background-size: 80px 80px;
   background-position: right 25px top 50%;
-  background-image: image-url('home/modules/leaves.svg');
+  background-image: url('../home/modules/leaves.svg');
 }
 
 #home_landing section#module_container #solutions_employee {
@@ -147,7 +147,7 @@
   background-repeat: no-repeat;
   background-size: 80px 80px;
   background-position: right 25px top 50%;
-  background-image: image-url('home/modules/employee.svg');
+  background-image: url('../home/modules/employee.svg');
 }
 
 #home_landing section#do_it_all {
@@ -406,7 +406,7 @@
 }
 
 #home_landing section#news .news-slider .slide-1 {
-  background-image: image-url('home/news/slider_1.png');
+  background-image: url('../home/news/slider_1.png');
   height: 600px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -522,7 +522,7 @@
 /* ========================[ RESPONSIVE MOBILE ] ========================[ */
 @media (max-width: 576px) {
   #home_landing section#landing_hero {
-    background-image: image-url('home/mobile_banner.svg');
+    background-image: url('../home/mobile_banner.svg');
     background-position: center;
     justify-content: space-between;
     background-size: 500px 500px;

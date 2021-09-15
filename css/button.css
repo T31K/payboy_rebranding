@@ -1,0 +1,125 @@
+.btn.btn-blue {
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 30px;
+  letter-spacing: 0;
+  background-color: #0048ff !important;
+  color: #fff;
+  font-style: italic;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn.btn-blue:hover {
+  font-style: italic;
+  color: #231f20;
+  background: #0048ff !important;
+}
+
+.btn.btn-yellow {
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 30px;
+  letter-spacing: 0;
+  background-color: #ffaa29 !important;
+  color: #fff;
+  font-style: italic;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn.btn-yellow:hover {
+  font-style: italic;
+  color: #231f20;
+  background: #ffaa29 !important;
+}
+
+.btn.btn-green {
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 30px;
+  letter-spacing: 0;
+  background-color: #0cc4ac !important;
+  color: #fff;
+  font-style: italic;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn.btn-green:hover {
+  font-style: italic;
+  color: #231f20;
+  background: #0cc4ac !important;
+}
+
+.btn.btn-purple {
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 30px;
+  letter-spacing: 0;
+  background-color: #643a96 !important;
+  color: #fff;
+  font-style: italic;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn.btn-purple:hover {
+  font-style: italic;
+  color: #231f20;
+  background: #643a96 !important;
+}
+
+.btn.btn-red {
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 30px;
+  letter-spacing: 0;
+  background-color: #ee3435 !important;
+  color: #fff;
+  font-style: italic;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn.btn-red:hover {
+  font-style: italic;
+  color: #231f20;
+  background: #ee3435 !important;
+}
+
+.btn.btn-lightblue {
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 30px;
+  letter-spacing: 0;
+  background-color: #1ec8ff !important;
+  color: #fff;
+  font-style: italic;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn.btn-lightblue:hover {
+  font-style: italic;
+  color: #231f20;
+  background: #1ec8ff !important;
+}
+
+.btn.btn-pink {
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 30px;
+  letter-spacing: 0;
+  background-color: #ff89af !important;
+  color: #fff;
+  font-style: italic;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn.btn-pink:hover {
+  font-style: italic;
+  color: #231f20;
+  background: #ff89af !important;
+}
