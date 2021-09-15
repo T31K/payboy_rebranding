@@ -1,5 +1,7 @@
 ## Payboy Rebranding Site (please read before viewing) ‼️
 
+🔗 LINK HERE: https://t31k.github.io/payboy_rebranding/
+
 ### Issues ⚠️
 In general, the performance and _UX_ of the site may be compromised because many libraries were omitted to get this page up and running ASAP.
 
